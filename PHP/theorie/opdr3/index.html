@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studentenformulier</title>
+</head>
+<body>
+
+<h1>Studentenformulier</h1>
+
+<form action="index_verwerk.php" method="post">
+    <label for="naam">Naam</label>
+    <input type="text" id="naam" name="naam" required><br><br>
+
+    <label for="studentnummer">Studentnummer</label>
+    <input type="text" id="studentnummer" name="studentnummer" required><br><br>
+
+    <label for="klas">Klas</label>
+    <input type="text" id="klas" name="klas" required><br><br>
+
+    <label for="leerlijn1">Leerlijn 1</label>
+    <input type="text" id="leerlijn1" name="leerlijn1" placeholder="Naam van leerlijn 1" required>
+    <input type="number" id="cijfer1" name="cijfer1" placeholder="Cijfer leerlijn 1" min="0" max="10" step="0.1" required><br><br>
+
+    <label for="leerlijn2">Leerlijn 2</label>
+    <input type="text" id="leerlijn2" name="leerlijn2" placeholder="Naam van leerlijn 2" required>
+    <input type="number" id="cijfer2" name="cijfer2" placeholder="Cijfer leerlijn 2" min="0" max="10" step="0.1" required><br><br>
+
+    <label for="leerlijn3">Leerlijn 3</label>
+    <input type="text" id="leerlijn3" name="leerlijn3" placeholder="Naam van leerlijn 3" required>
+    <input type="number" id="cijfer3" name="cijfer3" placeholder="Cijfer leerlijn 3" min="0" max="10" step="0.1" required><br><br>
+
+    <label for="leerlijn4">Leerlijn 4</label>
+    <input type="text" id="leerlijn4" name="leerlijn4" placeholder="Naam van leerlijn 4" required>
+    <input type="number" id="cijfer4" name="cijfer4" placeholder="Cijfer leerlijn 4" min="0" max="10" step="0.1" required><br><br>
+
+    <button type="submit">Verstuur</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* Algemene stijl voor het formulier */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stijl voor de labels */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Stijl voor de invoervelden */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Stijl voor de foutmeldingen */
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Stijl voor de submitknop */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Extra styling voor de lijst van fouten */
+ul {
+    color: red;
+    font-size: 14px;
+}
